@@ -1,0 +1,20 @@
+                                                      *Space complexity* 
+
+Generally space complexity is defined as the memory used by the program to execute.
+Usually, any programmer aims for fast response and less memory occupancy of the program.
+
+Here, space complexity deals with the memory storage of the program
+
+For example:
+main(){
+    int array[5]=[1,2,3,4,5];
+
+}
+Here the memory storage of int is 4 bytes , but what about array the array value or size is given already so the space complexity of this program is O(1) which is constant size.
+
+For example:
+main(){
+    int array[n];
+}
+
+Here the memory storage of int is 4 bytes but the array size is not decalred as it counts n times so the space complexity of this 4+n, so the order is n so its complexity is O(n).
